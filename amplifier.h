@@ -2,9 +2,15 @@
 #define AMPLIFIER_H
 #include <QString>
 #include <iostream>
-#include "tuner.h"
+
+/*#include "tuner.h"
 #include "dvdplayer.h"
-#include "cdplayer.h"
+#include "cdplayer.h"*/
+class Tuner;
+class DvdPlayer;
+class CdPlayer;
+
+using namespace std;
 
 class Amplifier
 {

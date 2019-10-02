@@ -21,7 +21,10 @@ SOURCES += \
     cdplayer.cpp \
     dvdplayer.cpp \
     popcornpopper.cpp \
-    projector.cpp
+    projector.cpp \
+    screen.cpp \
+    theaterlights.cpp \
+    tuner.cpp
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -34,4 +37,7 @@ HEADERS += \
     cdplayer.h \
     dvdplayer.h \
     popcornpopper.h \
-    projector.h
+    projector.h \
+    screen.h \
+    theaterlights.h \
+    tuner.h

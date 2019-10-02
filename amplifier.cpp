@@ -1,5 +1,4 @@
 #include "amplifier.h"
-using namespace std;
 
 Amplifier::Amplifier(QString description)
 {
